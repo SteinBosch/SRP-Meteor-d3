@@ -25,6 +25,4 @@ Ik ben tevreden in ieder geval.
 - https://teamgaslight.com/blog/how-to-remove-all-elements-from-a-meteor-collection
 - http://blog.benmcmahen.com/post/41124327100/using-d3-and-meteor-to-generate-scalable-vector
 - http://docs.mongodb.org/manual/reference/method/db.collection.find/
-- 
-
-
+- http://zeroviscosity.com/d3-js-step-by-step/step-1-a-basic-pie-chart
