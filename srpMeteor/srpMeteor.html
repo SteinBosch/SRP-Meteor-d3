@@ -1,0 +1,46 @@
+<head>
+	<title>SRP Meteor</title>
+</head>
+
+<body>
+	<h1>SRP Meteor.js + d3.js</h1>
+	<p>Cijfers studenten</p>
+	<p>Voer een cijfer in of druk op een button</p>
+
+	<form class="new-score">
+		<input type="number" name="score" max="10" min="1" required placeholder="Cijfer" />
+	</form>
+	<button class="scoreButton" data-val="1">1</button>
+	<button class="scoreButton" data-val="2">2</button>
+	<button class="scoreButton" data-val="3">3</button>
+	<button class="scoreButton" data-val="4">4</button>
+	<button class="scoreButton" data-val="5">5</button>
+	<button class="scoreButton" data-val="6">6</button>
+	<button class="scoreButton" data-val="7">7</button>
+	<button class="scoreButton" data-val="8">8</button>
+	<button class="scoreButton" data-val="9">9</button>
+	<button class="scoreButton" data-val="10">10</button>
+	
+	<div class="allScores">
+		<h2>Alle cijfers</h2>
+		{{#each scores}}
+		{{> score}}
+		{{/each}}
+	</div>
+	
+	{{> chart}}
+
+	<button class="resetScores">Reset cijfers</button>
+	
+</body>
+
+<template name="score">
+	<span class="score">{{score}}</span>
+</template>
+
+<template name="chart">
+	<div id="chartPie">
+		<div id="chart"></div>
+		<div id='fullLegend'></div>
+	</div>
+</template>
