@@ -3,9 +3,9 @@
 Een nieuwe uitdaging is altijd leuk!
 
 Ik had nog nooit gewerkt met Meteor.js maar wel genoeg over gehoord.
-Live-reload, elementen toevoegen of verwijderen zonder dat je pagina refresht. Ideaal als je bijvoorbeeld een spelshow host of iets dat openstaat op meerdere devices en informatie zou willen toevoegen.
+Live-reload, elementen toevoegen of verwijderen zonder dat je pagina refresht. Ideaal als je bijvoorbeeld een spelshow host of een app  die op meerdere devices runt en informatie zou willen toevoegen.
 
-Ik heb dus de uitdaging aangegaan om Meteor.js te combineren met d3.js. D3 is een javascript library waar je grafieken kunt maken.
+Ik ben dus de uitdaging aangegaan om Meteor.js te combineren met d3.js. D3 is een javascript library waar je grafieken kunt maken.
 
 Het idee achter mijn kleine applicatie is dat je cijfers van studenten zou kunnen invoeren en bij elk ingevoerde cijfer de grafiek zich aanpast.
 
