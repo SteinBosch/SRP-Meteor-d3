@@ -7,7 +7,8 @@ Live-reload, elementen toevoegen of verwijderen zonder dat je pagina refresht. I
 
 Ik ben dus de uitdaging aangegaan om Meteor.js te combineren met d3.js. D3 is een javascript library waar je grafieken kunt maken.
 
-Het idee achter mijn kleine applicatie is dat je cijfers van studenten zou kunnen invoeren en bij elk ingevoerde cijfer de grafiek zich aanpast.
+Het idee achter mijn kleine applicatie is dat je cijfers van studenten zou kunnen invoeren en bij elk ingevoerde cijfer de grafiek zich aanpast. Je kan kiezen om buttons of met de inputfield cijfers in te voeren. Met meteor wordt dit opgevangen, gegevens in de MongoDB gestopt en de functie voor het maken van de d3 grafiek uitgevoerd. 
+In de d3 functie wordt de ingevoerde data omgezet naar een bruikbare array. Daarna wordt de chart gerenderd. 
 
 Ik heb gekozen voor een donutpie, ik had met deze variant van d3 nog geen ervaring dus het leek mij leuk om hier wat over te leren.
 
@@ -24,6 +25,9 @@ Ik heb mijn simple-todo app ook mee geupload op deze git. Het was vrij pittig om
 
 Daarna ben ik van scratch mijn eigen d3 + meteor combi gaan opbouwen. Koste mij best veel tijd maar volgens mij is het goed gelukt!
 Ik ben in ieder geval tevreden.
+
+## Hoe werkt het?
+
 
 Deployment on meteor.com
 http://srpmeteord3.meteor.com/
