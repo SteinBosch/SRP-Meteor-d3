@@ -22,8 +22,8 @@ Eerst heb Meteor helemaal onderzocht.
 Ik heb de simple-todo app tutorial van de meteor site gevolgd.
 Ik heb mijn simple-todo app ook mee geupload op deze git. Het was vrij pittig om te begrijpen wat er gebeurt en Meteor heeft een stijle leercurve. Maar ik kan nu wel zeggen dat ik begrijp wat er gebeurt en het is echt erg gaaf.
 
-Daarna ben ik van scratch mijn eigen d3 combi gaan opbouwen. Koste zeker wat tijd maar volgens mij is het goed gelukt!
-Ik ben tevreden in ieder geval.
+Daarna ben ik van scratch mijn eigen d3 + meteor combi gaan opbouwen. Koste mij best veel tijd maar volgens mij is het goed gelukt!
+Ik ben in ieder geval tevreden.
 
 Deployment on meteor.com
 http://srpmeteord3.meteor.com/
