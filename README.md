@@ -11,10 +11,11 @@ Het idee achter mijn kleine applicatie is dat je cijfers van studenten zou kunne
 
 Ik heb gekozen voor een donutpie, ik had met deze variant van d3 nog geen ervaring dus het leek mij leuk om hier wat over te leren.
 
+Packages zijn scripts die gemakkelijk via de terminal kunnen worden toegevoegd aan de app waardoor je geen scripts hoeft in te laden in de html.
+
 De packages die ik heb toegevoegd aan meteor zijn:
-d3.js
-nvd3.js
-Dat gaat gemakkelijk via de terminal waardoor je geen scripts hoeft in te laden in de html.
+- d3.js
+- nvd3.js
 
 ## Hoe ben ik te werk gegaan?
 Eerst heb Meteor helemaal onderzocht.
